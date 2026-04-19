@@ -11,15 +11,15 @@ export function Contact() {
           </p>
 
           <div className={styles.contactMethods}>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
+            <a href="https://x.com/graceisford" target="_blank" rel="noopener noreferrer" className={styles.link}>
               <span className={styles.icon}>𝕏</span>
               <span>Twitter / X</span>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
+            <a href="https://www.linkedin.com/in/graceisford/" target="_blank" rel="noopener noreferrer" className={styles.link}>
               <span className={styles.icon}>in</span>
               <span>LinkedIn</span>
             </a>
-            <a href="https://lux.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
+            <a href="https://www.luxcapital.com/people/grace-isford" target="_blank" rel="noopener noreferrer" className={styles.link}>
               <span className={styles.icon}>✨</span>
               <span>Lux Profile</span>
             </a>
