@@ -11,8 +11,6 @@
     }
   },
   "env": {
-    "NEXT_PUBLIC_SITE_URL": {
-      "value": "https://graceisford.com"
-    }
-  }
+  "NEXT_PUBLIC_SITE_URL": "https://graceisford.com"
+}
 }
