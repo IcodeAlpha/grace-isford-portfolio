@@ -7,7 +7,7 @@ export const SITE_CONFIG = {
   title: 'Grace Isford - Venture Investor & AI Pioneer',
   description:
     'Venture investor focused on AI, computational sciences, and frontier technology. Exploring companies at the nexus of innovation.',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://graceisford.com',
+ url: (process.env.NEXT_PUBLIC_SITE_URL as string) || 'https://graceisford.com',
   language: 'en',
   charset: 'UTF-8',
   type: 'website',
