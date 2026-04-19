@@ -12,7 +12,8 @@ const featuredContent = [
     excerpt: 'Exploring the cutting edge of AI development and what\'s next for the industry. A deep dive into the technologies shaping our future.',
     image: '🚀',
     featured: true,
-    url: 'https://example.com/navigating-ai-frontier-2025'
+    url: 'https://example.com/navigating-ai-frontier-2025',
+    color: '#FF6B6B'
   },
   {
     id: 2,
@@ -22,7 +23,8 @@ const featuredContent = [
     excerpt: 'Key takeaways and insights from the AI Engineer Summit presentation.',
     image: '🎤',
     featured: true,
-    url: 'https://example.com/ai-engineer-summit'
+    url: 'https://example.com/ai-engineer-summit',
+    color: '#FF6B6B'
   },
   {
     id: 3,
@@ -33,7 +35,8 @@ const featuredContent = [
     excerpt: 'Analysis of the emerging AI agents market and enterprise implications.',
     image: '🤖',
     featured: true,
-    url: 'https://bloomberg.com/ai-agents'
+    url: 'https://bloomberg.com/ai-agents',
+    color: '#4ECDC4'
   },
   {
     id: 4,
@@ -44,7 +47,8 @@ const featuredContent = [
     excerpt: 'Analysis of how Chinese AI models are already beating their U.S. rivals in key metrics.',
     image: '🌍',
     featured: true,
-    url: 'https://www.cnbc.com/articles/china-ai-dominance'
+    url: 'https://www.cnbc.com/articles/china-ai-dominance',
+    color: '#4ECDC4'
   },
   {
     id: 5,
@@ -54,7 +58,8 @@ const featuredContent = [
     source: 'CNBC',
     excerpt: 'Investment criteria and what makes an AI company investable.',
     image: '💡',
-    url: 'https://www.cnbc.com/ai-investment-criteria'
+    url: 'https://www.cnbc.com/ai-investment-criteria',
+    color: '#45B7D1'
   },
   {
     id: 6,
@@ -64,7 +69,8 @@ const featuredContent = [
     source: 'Cerebral Valley',
     excerpt: 'Practical strategies for integrating AI agents into enterprise workflows.',
     image: '⚙️',
-    url: 'https://cerebralvalley.ai/implement-ai-agents'
+    url: 'https://cerebralvalley.ai/implement-ai-agents',
+    color: '#FFA07A'
   },
   {
     id: 7,
@@ -75,7 +81,8 @@ const featuredContent = [
     excerpt: 'The booming AI startup ecosystem and venture capital activity in New York.',
     image: '🗽',
     featured: true,
-    url: 'https://bloomberg.com/nyc-ai-demand'
+    url: 'https://bloomberg.com/nyc-ai-demand',
+    color: '#45B7D1'
   },
   {
     id: 8,
@@ -84,7 +91,8 @@ const featuredContent = [
     category: 'Venture Investing',
     excerpt: 'Comprehensive map and analysis of NYC\'s AI startup ecosystem.',
     image: '🗺️',
-    url: 'https://example.com/nyc-ai-opportunity'
+    url: 'https://example.com/nyc-ai-opportunity',
+    color: '#45B7D1'
   },
   {
     id: 9,
@@ -93,7 +101,8 @@ const featuredContent = [
     category: 'Career',
     excerpt: 'Recognition and insights on emerging leaders in venture capital.',
     image: '⭐',
-    url: 'https://forbes.com/30under30'
+    url: 'https://forbes.com/30under30',
+    color: '#FFD93D'
   },
   {
     id: 10,
@@ -102,7 +111,8 @@ const featuredContent = [
     category: 'AI Engineering',
     excerpt: 'Key insights and analysis from the AI economy landscape.',
     image: '📊',
-    url: 'https://example.com/ai-economy-april-2023'
+    url: 'https://example.com/ai-economy-april-2023',
+    color: '#FF6B6B'
   },
   {
     id: 11,
@@ -111,7 +121,8 @@ const featuredContent = [
     category: 'Infrastructure',
     excerpt: 'The foundational technologies and frameworks shaping AI infrastructure.',
     image: '🏗️',
-    url: 'https://example.com/ai-ml-infrastructure-stack'
+    url: 'https://example.com/ai-ml-infrastructure-stack',
+    color: '#98D8C8'
   },
   {
     id: 12,
@@ -120,7 +131,8 @@ const featuredContent = [
     category: 'Fintech',
     excerpt: 'What\'s ahead for payments, blockchain, and decentralized finance.',
     image: '💳',
-    url: 'https://example.com/fintech-predictions-2023'
+    url: 'https://example.com/fintech-predictions-2023',
+    color: '#F7DC6F'
   },
   {
     id: 13,
@@ -129,7 +141,8 @@ const featuredContent = [
     category: 'Career',
     excerpt: 'Recognition as a rising star in venture capital and technology.',
     image: '🌟',
-    url: 'https://businessinsider.com/rising-star'
+    url: 'https://businessinsider.com/rising-star',
+    color: '#FFD93D'
   },
   {
     id: 14,
@@ -138,7 +151,8 @@ const featuredContent = [
     category: 'Web3',
     excerpt: 'Comprehensive overview of the Web3 ecosystem and implications.',
     image: '🌐',
-    url: 'https://example.com/web3-world'
+    url: 'https://example.com/web3-world',
+    color: '#BB8FCE'
   },
   {
     id: 15,
@@ -147,7 +161,8 @@ const featuredContent = [
     category: 'Web3',
     excerpt: 'Separating fact from fiction in the Web3 narrative.',
     image: '❓',
-    url: 'https://example.com/web3-hype'
+    url: 'https://example.com/web3-hype',
+    color: '#BB8FCE'
   },
   {
     id: 16,
@@ -156,7 +171,8 @@ const featuredContent = [
     category: 'Infrastructure',
     excerpt: 'Understanding the growing importance of API integrations.',
     image: '🔌',
-    url: 'https://example.com/api-economy'
+    url: 'https://example.com/api-economy',
+    color: '#98D8C8'
   },
   {
     id: 17,
@@ -165,7 +181,8 @@ const featuredContent = [
     category: 'Venture Investing',
     excerpt: 'How venture capital adapted and evolved during unprecedented times.',
     image: '📈',
-    url: 'https://example.com/venture-coronavirus-era'
+    url: 'https://example.com/venture-coronavirus-era',
+    color: '#45B7D1'
   },
   {
     id: 18,
@@ -174,7 +191,8 @@ const featuredContent = [
     category: 'Venture Investing',
     excerpt: 'Analysis and insights on navigating crisis periods in investing.',
     image: '⚠️',
-    url: 'https://example.com/crisis-coverage'
+    url: 'https://example.com/crisis-coverage',
+    color: '#45B7D1'
   },
   {
     id: 19,
@@ -183,7 +201,8 @@ const featuredContent = [
     category: 'Career',
     excerpt: 'Personal profile and career journey in venture capital.',
     image: '👤',
-    url: 'https://example.com/grace-isford-profile'
+    url: 'https://example.com/grace-isford-profile',
+    color: '#FFD93D'
   },
   {
     id: 20,
@@ -192,7 +211,8 @@ const featuredContent = [
     category: 'Career',
     excerpt: 'My journey from product to venture capital. Lessons learned.',
     image: '🚀',
-    url: 'https://example.com/how-i-became-vc'
+    url: 'https://example.com/how-i-became-vc',
+    color: '#FFD93D'
   },
   {
     id: 21,
@@ -201,7 +221,8 @@ const featuredContent = [
     category: 'Product',
     excerpt: 'Design principles and strategies for building customer-centric companies.',
     image: '🎨',
-    url: 'https://example.com/design-first-company'
+    url: 'https://example.com/design-first-company',
+    color: '#F8C471'
   },
   {
     id: 22,
@@ -210,7 +231,8 @@ const featuredContent = [
     category: 'Product',
     excerpt: 'Product strategy and implementation insights from Handshake.',
     image: '🤝',
-    url: 'https://example.com/handshake-fds-product'
+    url: 'https://example.com/handshake-fds-product',
+    color: '#F8C471'
   },
 ];
 
@@ -263,12 +285,12 @@ export function Featured() {
                   style={{ borderLeftColor: item.color }}
                 >
                   <div className={styles.badge} style={{ background: `${item.color}20`, color: item.color }}>
-                    {item.source || item.type}
+                    {item.source || item.category}
                   </div>
                   <h3 className={styles.slideTitle}>{item.title}</h3>
-                  <p className={styles.slideDesc}>{item.description}</p>
+                  <p className={styles.slideDesc}>{item.excerpt}</p>
                   <div className={styles.slideFooter}>
-                    <span className={styles.type}>{item.type}</span>
+                    <span className={styles.type}>{item.category}</span>
                     <a href="#" className={styles.readMore}>
                       Read More →
                     </a>
